@@ -6,3 +6,6 @@ console.log(mein)
 
 say('anne')
 say(mein.fan)
+
+require('./calculate.js')
+
