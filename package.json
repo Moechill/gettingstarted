@@ -5,11 +5,17 @@
   "main": "calculate.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "go": "node second.js",
+    "dev": "nodemon second.js"
+
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
